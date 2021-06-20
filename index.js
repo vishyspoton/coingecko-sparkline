@@ -3,8 +3,8 @@ const fs = require("fs");
 const { getChartData } = require("./coingecko");
 
 const chartJSNodeCanvas = new ChartJSNodeCanvas({
-  width: 600,
-  height: 600,
+  width: 325,
+  height: 150,
   chartCallback: null,
 });
 
